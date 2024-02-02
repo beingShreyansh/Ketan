@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 1px solid #00000021;
+  padding: 5px 30px;
+}
+.right-nav {
+  display: flex;
+}
+.left-nav {
+  display: flex;
+}
+
+input.search {
+  width: 512px;
+  border: 1px solid #555;
+  display: block;
+  border-radius: 20px;
+  padding: 9px 4px 9px 10px;
+  background: #f4f4f4 url("../../assets/search-icon.svg") no-repeat 100%;
+  outline: none;
+  border: none;
+}

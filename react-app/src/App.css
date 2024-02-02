@@ -1,0 +1,64 @@
+.menu-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+span.text-public {
+  color: #cbcbcb;
+}
+
+.brackets {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  margin-right: 10px;
+}
+
+.bracketsLogo {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.bracketsLogo img {
+  margin-right: 5px;
+}
+
+.left-menu-head {
+  display: flex;
+  align-items: center;
+}
+
+.users-group {
+  display: flex;
+  margin-right: 50px;
+}
+
+.users-group .User {
+  margin-right: -2px;
+}
+main{
+  display:flex;
+}
+
+.User {
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-right: 5px; 
+}
+
+.design-container > *:not(:last-child) {
+  margin-bottom: 10px; 
+}
+
+@media (max-width: 768px) {
+  .menu-head {
+    flex-direction: column; 
+  }
+}
